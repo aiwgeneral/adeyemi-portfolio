@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import { ArrowDown } from 'lucide-react'
-import portrait from '../../dav.jpg'
 
 const Hero = () => {
   return (
@@ -57,7 +56,7 @@ const Hero = () => {
             </div>
             <div className="upload-card overflow-hidden p-2 flex items-end justify-center w-full">
               <img
-                src={portrait}
+                src="/dav.jpg"
                 alt="Adeyemi David Adeniyi"
                 className="h-64 w-full rounded-[18px] object-cover mt-8 shadow-xl"
                 style={{ objectPosition: 'center 30%' }}
